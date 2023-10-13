@@ -1,5 +1,5 @@
 import React from "react";
-import Item from "../../style/components/main/postStyle";
+import Item from "../../style/components/Container/Post";
 
 function Post() {
   return (

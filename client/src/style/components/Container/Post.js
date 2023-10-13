@@ -6,6 +6,7 @@ const Item = styled.div`
   background: #fff;
   transition: 0.1s;
   margin-bottom:30px;
+
   &:hover {
     box-shadow: 0px 0px 5px 1px #bdd5d0;
     transform: translateY(-5px);

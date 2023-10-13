@@ -1,38 +1,11 @@
 import React from "react";
-import styled from "styled-components";
 import { BsSearch } from "react-icons/bs";
-
-const Form = styled.form`
-  border-radius: 20px;
-  background: #fff;
-  padding: 5px;
-  position: relative;
-  &:hover {
-    box-shadow: 0px 0px 5px 1px #bdd5d0;
-  }
-  > input {
-    padding: 2px;
-    width: 85%;
-  }
-  > span {
-    padding: 3px 5px;
-    border-radius: 50%;
-    position: absolute;
-    right: 2px;
-    top: 2px;
-    cursor: pointer;
-    color: #516964;
-    &:hover {
-      background: #c6dbda;
-      color: #fff;
-    }
-  }
-`;
+import Form from "../../style/components/NavBar/Search";
 
 function Search() {
   return (
     <Form>
-      <input />
+      <input placeholder="키워드를 입력해보세요" />
       <span>
         <BsSearch />
       </span>

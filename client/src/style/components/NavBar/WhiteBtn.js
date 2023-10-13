@@ -1,18 +1,17 @@
 import styled from "styled-components";
 
-const Button = styled.button`
+const WhiteBtn = styled.button`
   border-radius: 20px;
-  background: black;
-  color: #fff;
+  background: #fff;
+  color: black;
   font-weight: 600;
   padding: 7px;
-  margin-left: 20px;
   text-wrap: nowrap;
   letter-spacing: 1px;
   &:hover {
-    background: #fff;
-    color: black;
+    background: black;
+    color: #fff;
   }
 `;
 
-export default Button
+export default WhiteBtn
